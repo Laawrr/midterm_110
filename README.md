@@ -1,1 +1,4 @@
-# midterm_110
+# MIDTERM 110 
+
+
+Personal website ITE 110
