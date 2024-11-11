@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawrence</title>
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./node_modules/material-design-icons-iconfont/dist/material-design-icons.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/res.css">
+    <link rel="icon" href="./assets/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="sticky-top" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+        data-aos-offset="0" data-aos-once="true">
+        <nav role="navigation" class="navbar">
+            <div class="menu-toggle"><span>Menu</span></div>
+            <ul class="menu navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container text-center vh-100 d-flex flex-column justify-content-center align-items-center"
+        data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+        <h1 class="ml3">Hello! I'm <span id="animatedText">Lawr</span>.</h1>
+        <p class="lead">A junior cybersecurity enthusiast with a foundation in ethical hacking and web development.</p>
+    </main>
+
+    <section id="about" class="container py-5" data-aos="fade-zoom-in" data-aos-easing="ease-in-back"
+        data-aos-offset="0">
+        <h2 class="about">About Me</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6 order-md-2">
+                <img src="./assets/profile.png" alt="Lawrence" class="img-fluid rounded-circle shadow profile">
+            </div>
+            <div class="col-md-6 order-md-1">
+                <p class="lead1">I'm Lawrence, a passionate cybersecurity enthusiast with a strong foundation in <span
+                        class="s1">ethical
+                        hacking and web development .</span> I believe that continuous learning is crucial in the
+                    ever-evolving
+                    field of technology.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="container py-5" data-aos-once="true">
+        <h2 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-once="true">Services</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="service-box text-right" data-aos="fade-down-right" data-aos-once="true">
+                    <i class="fas fa-shield-alt"></i>
+                    <strong>Cybersecurity Consulting:</strong>
+                    <p>Providing expert guidance to secure your systems and data from potential threats.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-box text-left" data-aos="fade-down-left" data-aos-delay="100" data-aos-once="true">
+                    <i class="fas fa-code"></i>
+                    <strong>Web Development:</strong>
+                    <p>Creating responsive and user-friendly websites tailored to your needs.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-box text-right" data-aos="fade-up-right" data-aos-delay="200" data-aos-once="true">
+                    <i class="fas fa-database"></i>
+                    <strong>Database Management:</strong>
+                    <p>Designing and managing databases to ensure optimal performance and security.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="service-box text-left" data-aos="fade-up-left" data-aos-delay="300" data-aos-once="true">
+                    <i class="fas fa-lock"></i>
+                    <strong>Ethical Hacking and Vulnerability Assessment:</strong>
+                    <p>Identifying weaknesses in your systems to enhance security measures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5" style="height: 90vh;" data-aos="fade-up" data-aos-once="true">
+        <div class="row justify-content-center align-items-center" style="height: 70%;">
+            <div class="col-md-6 text-center">
+                <div>
+                    <h2 class="text-center mb-4">Contact Me</h2>
+                    <p class="text-center mb-4" style="max-width: 500px; margin: 0 auto;">
+                        I would love to hear from you! Whether you have questions about my services, want to discuss a
+                        potential project, or simply want to connect, feel free to drop a message. I’ll get back
+                        to you as soon as possible.
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <a href="https://github.com/" target="_blank" class="mx-3">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="mx-3">
+                            <i class="fab fa-twitter fa-2x"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/" target="_blank" class="mx-3">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow p-4" style="border-radius: 15px;">
+                    <form action="" id="myForm">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="name" placeholder="name">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="email">
+                        </div>
+                        <br>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" rows="4" placeholder="message"></textarea>
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-block col-md-3">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-2 fs-6" id="footer">
+        <p class="mx-auto">Developed and designed by Lawrence <i class="fas fa-heart"></i></p>
+    </footer>
+
+    <script src="./node_modules/animejs/lib/anime.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script src="./js/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

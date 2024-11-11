@@ -1,0 +1,93 @@
+@media (max-width: 992px) {
+    .ml3 {
+        font-size: 45px;
+    }
+    .lead {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .container, .container-md, .container-sm {
+        max-width: 90%;
+    }
+    .lead1 {
+        font-size: 20px;
+    }
+
+    button {
+        width: 100px !important; 
+    }
+    .card {
+        max-width: 200% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-fluid {
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+    .lead1 {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .card {
+        margin-top: 70px;
+        max-width: 70%;
+    }
+
+    #contact p {
+        font-size: 110% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .ml3 {
+        font-size: 190%;
+    }
+    .lead {
+        font-size: 90%;
+    }
+
+    .service-box strong {
+        font-size: 17px;
+    }
+
+    .img-fluid {
+        width: 80%;
+    }
+    .container, .container-md, .container-sm {
+        max-width: 80%;
+    }
+    .lead1 {
+        font-size: 17px;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+    #contact p {
+        font-size: 100% !important;
+    }
+}
+
+@media (max-width: 376px) {
+
+    .service-box strong {
+        font-size: 15px;
+    }
+
+    .card {
+        margin-top: 30px !important;
+        max-height: 40vh;
+        overflow-y: auto;     
+    }
+    #contact p {
+        font-size: 90% !important;
+    }
+    .form-control {
+        font-size: 15px;
+    }
+}
